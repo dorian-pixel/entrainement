@@ -1,7 +1,7 @@
 package deqo;
 
 /**
- * Classe représentant une question à choix exclusive
+ * Classe représentant une question à choix exclusive.
  */
 public class QuestionAChoixExclusif implements QuestionAChoix {
 
@@ -9,9 +9,10 @@ public class QuestionAChoixExclusif implements QuestionAChoix {
     private int indiceBonneReponse;
 
     /**
-     * Une question à choix excusive est complètement caractérisé par son énoncé et l'indice de sa bonne réponse
-     * @param enonce l'énoncé de la question
-     * @param indiceBonneReponse l'indice de la bonne réponse
+     * Une question à choix excusive est complètement caractérisé par son énoncé
+     * et l'indice de sa bonne réponse.
+     * @param enonce l'énoncé de la question.
+     * @param indiceBonneReponse l'indice de la bonne réponse.
      */
     public QuestionAChoixExclusif(String enonce, int indiceBonneReponse) {
         this.enonce = enonce;

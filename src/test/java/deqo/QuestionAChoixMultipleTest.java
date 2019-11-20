@@ -23,6 +23,6 @@ public class QuestionAChoixMultipleTest {
     @Test
     public void getScoreForIndice() {
         assertEquals(25, q1.getScoreForIndice(3), 0);
-        assertEquals(0, q1.getScoreForIndice(1), 0);
+        assertEquals(-25, q1.getScoreForIndice(1), 0);
     }
 }
